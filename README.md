@@ -1,22 +1,17 @@
-# 딥러닝과 머신러닝 파이널 프로젝트 
+## 서울대학교 빅데이터 핀테크 6기 - 딥러닝과 머신러닝 파이널 프로젝트 
 # DDSP-SVC를 이용한 음성 변환
-<div align="center">
-<img src="https://storage.googleapis.com/ddsp/github_images/ddsp_logo.png" width="200px" alt="logo"></img>
-</div>
-Real-time end-to-end singing voice conversion system based on DDSP (Differentiable Digital Signal Processing）.
 
-## 0. Introduction
-DDSP-SVC is a new open source singing voice conversion project dedicated to the development of free AI voice changer software that can be popularized on personal computers.
 
-Compared with the more famous [Diff-SVC](https://github.com/prophesier/diff-svc) and [SO-VITS-SVC](https://github.com/svc-develop-team/so-vits-svc),  its training and synthesis have much lower requirements for computer hardware, and the training time can be shortened by orders of magnitude. In addition, when performing voice change in real-time, the hardware resources of this project are significantly lower than SO-VITS-SVC, and Diff-SVC is too slow to perform voice change in real-time.
+## 0. 들어가며
+DDSP-SVC는 새로운 오픈 소스 노래 음성 변환 프로젝트이며 개인 컴퓨터에서 대중화할 수 있는 무료 AI 음성 변환 소프트웨어 개발에 전념합니다.
 
-Although the original synthesis quality of DDSP is not ideal (the original output can be heard in tensorboard while training), after using the pre-trained vocoder-based enhancer, the sound quality for some dateset can reach a level close to SO-VITS-SVC.
+이 프로젝트보다 더 유명한 Diff-SVC와 SO-VITS-SVC랑 비교해보았을때, 훈련과 합성 과정에서 조금 더 낮은 컴퓨터 사양에서도 동작하고 훈련 시간도 몇 배 더 단축 할 수 있습니다. 또한 실시간으로 음성을 변경 할 때 SO-VITS-SVC에서 요구하는 하드웨어 자원보다 요구 기준이 낮으며 Diff-SVC의 경우 실시간 음성 변경이 너무 느립니다.
 
-If the quality of the training data is very high, probably still Diff-SVC will have the highest sound quality. The demo outputs are in the `samples` folder,  and the related model checkpoint can be downloaded from the release page.
+본래 DDSP 의 합성 품질이 그닥 이상적이지는 않지만 (훈련 중에 TensorBoard에서 본래의 출력을 들을 수 있음) 사전훈련된 보코더 기반 enhancer를 사용하여 몇몇 데이터셋이 SO-VITS-SVC의 음질과 비슷한 수준으로 도달 할 수 있습니다.
 
-Disclaimer: Please make sure to only train DDSP-SVC models with **legally obtained authorized data**, and do not use these models and any audio they synthesize for illegal purposes. The author of this repository is not responsible for any infringement, fraud and other illegal acts caused by the use of these model checkpoints and audio.
+학습 데이터의 품질이 매우 높은 경우에도 Diff-SVC의 음질이 가장 좋을 수 있습니다. 데모 출력 결과는 samples 폴더에 존재하며 관련된 체크포인트 모델들은 Releases 페이지에서 다운로드 하실 수 있습니다.
 
-Update log: I am too lazy to translate, please see the Chinese version readme.
+경고: DDSP-SVC를 통해 학습시키는 모델이 합법적으로 허가된 데이터로 학습되도록 해주시고 불법적인 방식으로 음성을 합성하여 사용하는 일이 없도록 해주세요. 본 저장소의 소유자는 모델 체크포인트와 오디오 이용한 권리 침해, 사기 및 기타 불법 행위에 대해 책임을 지지 않습니다.
 
 ## 1. 주제 선정 배경
 We recommend first installing PyTorch from the [**official website**](https://pytorch.org/), then run:
@@ -31,7 +26,7 @@ UPDATE: python 3.8 (windows) + cuda 11.8 + torch 2.0.0 + torchaudio 2.0.1 works,
 UPDATE:  ContentVec encoder is supported now. You can download the pretrained [ContentVec](https://ibm.ent.box.com/s/z1wgl1stco8ffooyatzdwsqn2psd9lrr) encoder instead of HubertSoft encoder and modify the configuration file to use it.
 - **(Required)** Download the pretrained [**HubertSoft**](https://github.com/bshall/hubert/releases/download/v0.1/hubert-soft-0d54a1f4.pt)   encoder and put it under `pretrain/hubert` folder.
 -  Get the pretrained vocoder-based enhancer from the [DiffSinger Community Vocoders Project](https://openvpi.github.io/vocoders) and unzip it into `pretrain/` folder
-## 3. Preprocessing
+## 3. 모델 구성 및 학습 방법
 
 Put all the training dataset (.wav format audio clips) in the below directory:
 `data/train/audio`. 
@@ -96,7 +91,7 @@ data/val/audio/ccc.wav
 data/val/audio/ddd.wav
 ...
 ```
-## 4. Training
+## 4. 결론
 ```bash
 # train a combsub model as an example
 python train.py -c configs/combsub.yaml
