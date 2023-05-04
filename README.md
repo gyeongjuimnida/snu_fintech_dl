@@ -1,5 +1,5 @@
-Language: **English** [한국어](./ko_README.md)
-# DDSP-SVC
+# 딥러닝과 머신러닝 파이널 프로젝트 
+# DDSP-SVC를 이용한 음성 변환
 <div align="center">
 <img src="https://storage.googleapis.com/ddsp/github_images/ddsp_logo.png" width="200px" alt="logo"></img>
 </div>
