@@ -1,4 +1,4 @@
-### 서울대학교 빅데이터 핀테크 6기 
+### 서울대학교 빅데이터 핀테크 6기 5조
 
 # 딥러닝과 머신러닝 파이널 프로젝트 
 # DDSP-SVC를 이용한 음성 변환
@@ -20,5 +20,5 @@
 
 ## 5. 참고한 프로젝트
 * [ddsp](https://github.com/magenta/ddsp)
-* [ddsp](https://github.com/yxlllc/DDSP-SVC)
+* [ddsp-svc](https://github.com/yxlllc/DDSP-SVC)
 
