@@ -18,7 +18,7 @@ Disclaimer: Please make sure to only train DDSP-SVC models with **legally obtain
 
 Update log: I am too lazy to translate, please see the Chinese version readme.
 
-## 1. Installing the dependencies
+## 1. 주제 선정 배경
 We recommend first installing PyTorch from the [**official website**](https://pytorch.org/), then run:
 ```bash
 pip install -r requirements.txt 
@@ -26,7 +26,8 @@ pip install -r requirements.txt
 NOTE : I only test the code using python 3.8 (windows) + torch 1.9.1 + torchaudio 0.6.0, too new or too old dependencies may not work
 
 UPDATE: python 3.8 (windows) + cuda 11.8 + torch 2.0.0 + torchaudio 2.0.1 works, and training is faster.
-## 2. Configuring the pretrained model
+
+## 2. 이론적 배경
 UPDATE:  ContentVec encoder is supported now. You can download the pretrained [ContentVec](https://ibm.ent.box.com/s/z1wgl1stco8ffooyatzdwsqn2psd9lrr) encoder instead of HubertSoft encoder and modify the configuration file to use it.
 - **(Required)** Download the pretrained [**HubertSoft**](https://github.com/bshall/hubert/releases/download/v0.1/hubert-soft-0d54a1f4.pt)   encoder and put it under `pretrain/hubert` folder.
 -  Get the pretrained vocoder-based enhancer from the [DiffSinger Community Vocoders Project](https://openvpi.github.io/vocoders) and unzip it into `pretrain/` folder
