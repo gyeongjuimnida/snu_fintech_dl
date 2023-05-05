@@ -5,7 +5,10 @@
 
 
 ## 1. 프로젝트 설명
-주제 선정 이유
+<div align="center">
+<img src="<img src="https://drive.google.com/file/d/1TQh7NEcJVvZdGq2eh-1QEqgoqqTKDj8z/view?usp=sharing/github_images/ddsp_logo.png" width="200px" alt="logo"></img>
+" width="200px" alt="logo"></img>
+</div>
 
 ## 2. 이론적 배경
 이론적 배경들에 대해 간단하게 설명
