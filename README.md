@@ -25,10 +25,27 @@
 
 ## 3. 모델 구성 및 학습 방법
 
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 08 23" src="https://user-images.githubusercontent.com/60852726/236370277-86108418-7464-4afb-957e-045f6acf4dd1.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 08 32" src="https://user-images.githubusercontent.com/60852726/236370281-96f2ca01-0895-416c-a083-bfd3f8cc4013.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 08 42" src="https://user-images.githubusercontent.com/60852726/236370283-681d291d-76f7-40ff-be50-4b084eec246a.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 08 50" src="https://user-images.githubusercontent.com/60852726/236370296-98d8472b-4558-4735-b823-907a3b64b7c7.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 09 01" src="https://user-images.githubusercontent.com/60852726/236370300-8779ce27-4108-4d99-8fd6-ee0ff3f0b181.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 09 09" src="https://user-images.githubusercontent.com/60852726/236370302-872d5b15-8330-478b-8a32-aad6ba956fff.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 09 17" src="https://user-images.githubusercontent.com/60852726/236370303-7012375b-ce5f-4495-b241-769c2434ad81.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 09 31" src="https://user-images.githubusercontent.com/60852726/236370308-23a34002-c569-4370-baf5-40ecc46f8b88.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 09 39" src="https://user-images.githubusercontent.com/60852726/236370312-37a8ee2b-a4f3-4bab-a4d1-3b06b38ea3f7.png">
+
 
 
 ## 4. 결론
-
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 09 54" src="https://user-images.githubusercontent.com/60852726/236370315-4dcb9135-42a5-4cbe-8259-3e2fdaddc7ab.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 10 02" src="https://user-images.githubusercontent.com/60852726/236370317-1ac6eb65-3251-485a-9cf0-9bf42a5566db.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 10 12" src="https://user-images.githubusercontent.com/60852726/236370319-c1d8ce1a-500e-466d-9da3-8a1743f6f089.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 10 19" src="https://user-images.githubusercontent.com/60852726/236370320-972273fa-7f5e-4fc7-982a-7ab2a531d505.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 10 27" src="https://user-images.githubusercontent.com/60852726/236370322-382301d6-42d3-4fe1-9e0a-263a4310927a.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 10 34" src="https://user-images.githubusercontent.com/60852726/236370325-792856c8-d6f0-419e-818c-2ddae6802fcb.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 10 43" src="https://user-images.githubusercontent.com/60852726/236370328-1f17de84-cbff-4f37-ad70-c9f1baa0094b.png">
+<img width="1470" alt="스크린샷 2023-05-05 오후 12 10 51" src="https://user-images.githubusercontent.com/60852726/236370331-60539c4b-7440-4357-b236-fe7a2cc25622.png">
 
 
 ## 5. 참고한 프로젝트
